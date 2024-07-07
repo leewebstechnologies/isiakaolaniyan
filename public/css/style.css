@@ -598,3 +598,8 @@
     color: var(--primary) !important;
 }
 
+.logo {
+    width: 50px;
+}
+
+

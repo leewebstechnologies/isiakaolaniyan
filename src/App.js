@@ -1,4 +1,5 @@
-function App() {
+import logo from "./images/logo.png";
+function App() { 
   return (
     <>
       <div>
@@ -6,7 +7,7 @@ function App() {
         <div className="topbar container-fluid bg-primary text-white d-none d-lg-flex">
           <div className="container py-3">
             <div className="d-flex align-items-center">
-              <a href="index.html">
+              <a className="anchor" href="index.html">
                 <h2 className="text-white fw-bold m-0">Isiak Olaniyan</h2>
               </a>
               <div className="ms-auto d-flex align-items-center">
