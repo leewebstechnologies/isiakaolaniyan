@@ -1077,19 +1077,22 @@ function App() {
               <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-4">Quick Links</h4>
                 <a className="btn btn-link" href>
-                  About Us
+                  Start A Blog
                 </a>
                 <a className="btn btn-link" href>
-                  Contact Us
+                  Start A Youtube Channel
                 </a>
                 <a className="btn btn-link" href>
-                  Our Services
+                  AI Income Blueprint (New)
                 </a>
                 <a className="btn btn-link" href>
-                  Terms &amp; Condition
+                  Income University
                 </a>
                 <a className="btn btn-link" href>
-                  Support
+                  My Story
+                </a>
+                <a className="btn btn-link" href>
+                  Contact
                 </a>
               </div>
               <div className="col-lg-3 col-md-6">
@@ -1127,21 +1130,14 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                ©{" "}
+                ©
                 <a className="fw-medium text-light" href="#">
-                  Your Site Name
+                  Isiak Olaniyan
                 </a>
                 , All Right Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
-                {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
-                Designed By{" "}
-                <a
-                  className="fw-medium text-light"
-                  href="https://htmlcodex.com"
-                >
-                  HTML Codex
-                </a>
+                Designed By Isiak Olaniyan
               </div>
             </div>
           </div>
