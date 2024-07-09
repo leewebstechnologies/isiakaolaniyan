@@ -1,4 +1,5 @@
 import "./navbar.css";
+import logo from "../../images/logo.png";
 
 const Navbar = () => {
   return (
@@ -6,9 +7,11 @@ const Navbar = () => {
       <div className="container-fluid bg-white sticky-top">
         <div className="container">
           <nav className="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-            <a href="index.html" className="navbar-brand d-lg-none">
-              <h1 className="fw-bold m-0">Isiak Olaniyan</h1>
+            <a href="index.html" className="anchor navbar-brand d-lg-none">
+              <img className="logo" src={logo} alt="logo" />
+              <h1 className="name fw-bold m-2">Isiak Olaniyan</h1>
             </a>
+
             <button
               type="button"
               className="navbar-toggler me-0"
@@ -19,6 +22,9 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <div className="navbar-nav">
+                <a href="index.html" className="nav-item nav-link active">
+                  HOME
+                </a>
                 <a href="index.html" className="nav-item nav-link active">
                   START A BLOG
                 </a>
@@ -50,11 +56,11 @@ const Navbar = () => {
                   CONTACT
                 </a>
               </div>
-              <div className="ms-auto d-none d-lg-block">
-                <a href className="btn btn-primary rounded-pill py-2 px-3">
+              {/* <div className="ms-auto d-none d-lg-block">
+                <a href className="btn btn-primary py-2 px-4">
                   FREE MASTERCLASS
-                </a>
-              </div>
+                 </a>
+              </div> */}
             </div>
           </nav>
         </div>

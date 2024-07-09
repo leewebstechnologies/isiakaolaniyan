@@ -1,5 +1,9 @@
 .logo {
     width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -10px; */
 }
 
 .anchor {
@@ -8,8 +12,12 @@
 
 
 .brandname {
-    margin-top: 10px;
+margin-top: 5px;
 }
-/* .topbar {
+.topbar {
     background-color: #722f37;
-} */
+}
+
+.ms-3 {
+    color: #722f37;
+}

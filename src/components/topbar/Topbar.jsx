@@ -4,8 +4,8 @@ import logo from "../../images/logo.png";
 const Topbar = () => {
   return (
     <>
-      <div className="topbar bg-primary container-fluid text-white d-none d-lg-flex">
-        <div className="container  py-3">
+      <div className="topbar container-fluid text-white d-none d-lg-flex">
+        <div className="container  py-1">
           <div className="d-flex align-items-center">
             <a className="anchor" href="index.html">
               <img className="logo" src={logo} alt="logo" />
@@ -26,19 +26,19 @@ const Topbar = () => {
               </small>
               <div className="ms-3 d-flex">
                 <a
-                  className="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
+                  className="btn btn-sm-square btn-light rounded-circle ms-2"
                   href
                 >
                   <i className="fab fa-facebook-f" />
                 </a>
                 <a
-                  className="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
+                  className="btn btn-sm-square btn-light rounded-circle ms-2"
                   href
                 >
-                  <i className="fab fa-twitter" />
+                  <i class="fa-brands fa-x-twitter" />
                 </a>
                 <a
-                  className="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
+                  className="btn btn-sm-square btn-light rounded-circle ms-2"
                   href
                 >
                   <i className="fab fa-linkedin-in" />
@@ -50,5 +50,5 @@ const Topbar = () => {
       </div>
     </>
   );
-}
-export default Topbar
+};
+export default Topbar;
