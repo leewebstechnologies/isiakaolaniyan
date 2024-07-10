@@ -1,0 +1,22 @@
+.texture {
+  position: relative;
+  text-align: center;
+}
+
+.texture_image {
+  width: 100%;
+  height: 250px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -160px;
+}
+
+.contents h5, h2 {
+  color: #fff;
+}
+

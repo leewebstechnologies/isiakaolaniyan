@@ -41,7 +41,7 @@ const Carousel = () => {
                   <div className="row justify-content-end">
                     <div className="col-lg-7 text-end">
                       <p className="fs-4 text-white animated slideInLeft">
-                        Welcome to <strong>GrowMark</strong>
+                        Welcome to <strong>Isiak Olaniyan</strong>
                       </p>
                       <h1 className="display-1 text-white mb-5 animated slideInLeft">
                         Ready to Grow Your Business

@@ -1,315 +1,36 @@
-import Carousel from "./components/carousel/Carousel";
 import Features from "./components/features/Features";
+import Model from "./components/about/About";
+// import Carousel from "./components/carousel/Carousel";
 import Navbar from "./components/navbar/Navbar";
 import Topbar from "./components/topbar/Topbar";
 import logo from "./images/logo.png";
+import Services from "./components/services/Services";
+import Texture from "./components/texture/Texture";
+import Testimonial from "./components/testimonial/Testimonial";
 function App() {
   return (
     <>
       <Topbar />
       <Navbar />
-      <Carousel />
+      <Model />
+      {/* <Carousel /> */}
       <Features />
+      <Services />
+      <Texture />
+      <Testimonial />
 
       {/* Carousel End */}
       {/* Features Start */}
 
       {/* Features End */}
       {/* About Start */}
-      <div className="container-xxl about my-5">
-        <div className="container">
-          <div className="row g-0">
-            <div className="col-lg-6">
-              <div
-                className="h-100 d-flex align-items-center justify-content-center"
-                style={{ minHeight: "300px" }}
-              >
-                <button
-                  type="button"
-                  className="btn-play"
-                  data-bs-toggle="modal"
-                  data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
-                  data-bs-target="#videoModal"
-                >
-                  <span />
-                </button>
-              </div>
-            </div>
-            <div className="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
-              <div className="bg-white rounded-top p-5 mt-lg-5">
-                <p className="fs-5 fw-medium text-primary">About Us</p>
-                <h1 className="display-6 mb-4">
-                  The Best Marketing Agency to Improve Your Business
-                </h1>
-                <p className="mb-4">
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                  sed stet lorem sit clita duo justo
-                </p>
-                <div className="row g-5 pt-2 mb-5">
-                  <div className="col-sm-6">
-                    <img
-                      className="img-fluid mb-4"
-                      src="img/icon/icon-5.png"
-                      alt=""
-                    />
-                    <h5 className="mb-3">Managed Services</h5>
-                    <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
-                  </div>
-                  <div className="col-sm-6">
-                    <img
-                      className="img-fluid mb-4"
-                      src="img/icon/icon-2.png"
-                      alt=""
-                    />
-                    <h5 className="mb-3">Dedicated Experts</h5>
-                    <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
-                  </div>
-                </div>
-                <a className="btn btn-primary rounded-pill py-3 px-5" href>
-                  Explore More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       {/* About End */}
       {/* Video Modal Start */}
-      <div
-        className="modal modal-video fade"
-        id="videoModal"
-        tabIndex={-1}
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content rounded-0">
-            <div className="modal-header">
-              <h3 className="modal-title" id="exampleModalLabel">
-                Youtube Video
-              </h3>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              />
-            </div>
-            <div className="modal-body">
-              {/* 16:9 aspect ratio */}
-              <div className="ratio ratio-16x9">
-                <iframe
-                  className="embed-responsive-item"
-                  src
-                  id="video"
-                  allowFullScreen
-                  allowscriptaccess="always"
-                  allow="autoplay"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       {/* Video Modal End */}
       {/* Service Start */}
-      <div className="container-xxl py-5">
-        <div className="container">
-          <div
-            className="text-center mx-auto wow fadeInUp"
-            data-wow-delay="0.1s"
-            style={{ maxWidth: "500px" }}
-          >
-            <p className="fs-5 fw-medium text-primary">Our Services</p>
-            <h1 className="display-5 mb-5">
-              Digital Marketing Services that We Offer
-            </h1>
-          </div>
-          <div className="row g-4">
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="service-item position-relative h-100">
-                <div className="service-text rounded p-5">
-                  <div
-                    className="btn-square bg-light rounded-circle mx-auto mb-4"
-                    style={{ width: "64px", height: "64px" }}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-5.png"
-                      alt="Icon"
-                    />
-                  </div>
-                  <h5 className="mb-3">Digital Marketing</h5>
-                  <p className="mb-0">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet
-                  </p>
-                </div>
-                <div className="service-btn rounded-0 rounded-bottom">
-                  <a className="text-primary fw-medium" href>
-                    Read More
-                    <i className="bi bi-chevron-double-right ms-2" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="service-item position-relative h-100">
-                <div className="service-text rounded p-5">
-                  <div
-                    className="btn-square bg-light rounded-circle mx-auto mb-4"
-                    style={{ width: "64px", height: "64px" }}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-6.png"
-                      alt="Icon"
-                    />
-                  </div>
-                  <h5 className="mb-3">Internet Marketing</h5>
-                  <p className="mb-0">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet
-                  </p>
-                </div>
-                <div className="service-btn rounded-0 rounded-bottom">
-                  <a className="text-primary fw-medium" href>
-                    Read More
-                    <i className="bi bi-chevron-double-right ms-2" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="service-item position-relative h-100">
-                <div className="service-text rounded p-5">
-                  <div
-                    className="btn-square bg-light rounded-circle mx-auto mb-4"
-                    style={{ width: "64px", height: "64px" }}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-7.png"
-                      alt="Icon"
-                    />
-                  </div>
-                  <h5 className="mb-3">Content Marketing</h5>
-                  <p className="mb-0">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet
-                  </p>
-                </div>
-                <div className="service-btn rounded-0 rounded-bottom">
-                  <a className="text-primary fw-medium" href>
-                    Read More
-                    <i className="bi bi-chevron-double-right ms-2" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="service-item position-relative h-100">
-                <div className="service-text rounded p-5">
-                  <div
-                    className="btn-square bg-light rounded-circle mx-auto mb-4"
-                    style={{ width: "64px", height: "64px" }}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-8.png"
-                      alt="Icon"
-                    />
-                  </div>
-                  <h5 className="mb-3">Social Marketing</h5>
-                  <p className="mb-0">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet
-                  </p>
-                </div>
-                <div className="service-btn rounded-0 rounded-bottom">
-                  <a className="text-primary fw-medium" href>
-                    Read More
-                    <i className="bi bi-chevron-double-right ms-2" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="service-item position-relative h-100">
-                <div className="service-text rounded p-5">
-                  <div
-                    className="btn-square bg-light rounded-circle mx-auto mb-4"
-                    style={{ width: "64px", height: "64px" }}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-9.png"
-                      alt="Icon"
-                    />
-                  </div>
-                  <h5 className="mb-3">B2B Marketing</h5>
-                  <p className="mb-0">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet
-                  </p>
-                </div>
-                <div className="service-btn rounded-0 rounded-bottom">
-                  <a className="text-primary fw-medium" href>
-                    Read More
-                    <i className="bi bi-chevron-double-right ms-2" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="service-item position-relative h-100">
-                <div className="service-text rounded p-5">
-                  <div
-                    className="btn-square bg-light rounded-circle mx-auto mb-4"
-                    style={{ width: "64px", height: "64px" }}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-10.png"
-                      alt="Icon"
-                    />
-                  </div>
-                  <h5 className="mb-3">E-mail Marketing</h5>
-                  <p className="mb-0">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet
-                  </p>
-                </div>
-                <div className="service-btn rounded-0 rounded-bottom">
-                  <a className="text-primary fw-medium" href>
-                    Read More
-                    <i className="bi bi-chevron-double-right ms-2" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       {/* Service End */}
       {/* Project Start */}
       <div className="container-xxl pt-5">
@@ -697,61 +418,7 @@ function App() {
       </div>
       {/* Team End */}
       {/* Testimonial Start */}
-      <div className="container-xxl pt-5">
-        <div className="container">
-          <div
-            className="text-center text-md-start pb-5 pb-md-0 wow fadeInUp"
-            data-wow-delay="0.1s"
-            style={{ maxWidth: "500px" }}
-          >
-            <p className="fs-5 fw-medium text-primary">Testimonial</p>
-            <h1 className="display-5 mb-5">
-              What Clients Say About Our Services!
-            </h1>
-          </div>
-          <div
-            className="owl-carousel testimonial-carousel wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src="img/testimonial-1.jpg" alt="" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src="img/testimonial-2.jpg" alt="" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src="img/testimonial-3.jpg" alt="" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src="img/testimonial-4.jpg" alt="" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
-          </div>
-        </div>
-      </div>
+
       {/* Testimonial End */}
       {/* Footer Start */}
       <div
