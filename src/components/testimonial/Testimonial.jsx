@@ -11,9 +11,9 @@ const Testimonial = () => {
             data-wow-delay="0.1s"
             style={{ maxWidth: "500px" }}
           >
-            <div className="testimonial">
+            <div className="wrapper">
               <p>Testimonial</p>
-              <h3 className="students">See What Our Students Are Saying 👇</h3>
+              <h3 >See What Our Students Are Saying 👇</h3>
               <h6>IMPORTANT: Earnings and Results Disclaimer</h6>
               <p>
                 *The results you see on this page are not typical, Adam Enfroy
