@@ -7,6 +7,7 @@ import logo from "./images/logo.png";
 import Services from "./components/services/Services";
 import Texture from "./components/texture/Texture";
 import Testimonial from "./components/testimonial/Testimonial";
+import Sumup from "./components/sumup/Sumup";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Texture />
       <Testimonial />
+      <Sumup />
 
       {/* Carousel End */}
       {/* Features Start */}
