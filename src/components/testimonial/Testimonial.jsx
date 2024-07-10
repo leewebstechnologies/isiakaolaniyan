@@ -1,5 +1,5 @@
 import "./testimonial.css";
-import testimonial_one from "../../images/testimonial-1.jpg";
+import one from "../../videos/lab.mp4";
 
 const Testimonial = () => {
   return (
@@ -13,7 +13,7 @@ const Testimonial = () => {
           >
             <div className="wrapper">
               <p>Testimonial</p>
-              <h3 >See What Our Students Are Saying 👇</h3>
+              <h3>See What Our Students Are Saying 👇</h3>
               <h6>IMPORTANT: Earnings and Results Disclaimer</h6>
               <p>
                 *The results you see on this page are not typical, Adam Enfroy
@@ -26,46 +26,8 @@ const Testimonial = () => {
               </p>
             </div>
           </div>
-          <div
-            className="owl-carousel testimonial-carousel wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src={testimonial_one} alt="testimonial" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src="img/testimonial-2.jpg" alt="" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src="img/testimonial-3.jpg" alt="" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div className="testimonial-item rounded p-4 p-lg-5 mb-5">
-              <img className="mb-4" src="img/testimonial-4.jpg" alt="" />
-              <p className="mb-4">
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-              </p>
-              <h5>Client Name</h5>
-              <span className="text-primary">Profession</span>
-            </div>
+          <div className="card">
+            <video src={one} alt="testimonial_video" loop muted />
           </div>
         </div>
       </div>
