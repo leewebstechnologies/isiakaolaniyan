@@ -1,4 +1,7 @@
 import "./features.css";
+import growth from "../../images/growth.png";
+import collaboration from "../../images/collaboration.png";
+import dollar from "../../images/dollar.png";
 
 const Features = () => {
   return (
@@ -12,11 +15,7 @@ const Features = () => {
                   className="btn-square bg-light rounded-circle mb-4"
                   style={{ width: "64px", height: "64px" }}
                 >
-                  <img
-                    className="img-fluid"
-                    src="img/icon/icon-2.png"
-                    alt="Icon"
-                  />
+                  <img className="img-fluid" src={collaboration} alt="Icon" />
                 </div>
                 <h5 className="mb-3">130,000+</h5>
                 <p className="mb-0">
@@ -30,11 +29,7 @@ const Features = () => {
                   className="btn-square bg-light rounded-circle mb-4"
                   style={{ width: "64px", height: "64px" }}
                 >
-                  <img
-                    className="img-fluid"
-                    src="img/icon/icon-1.png"
-                    alt="Icon"
-                  />
+                  <img className="img-fluid" src={growth} alt="Icon" />
                 </div>
                 <h5 className="mb-3">6,000+ Students</h5>
                 <p className="mb-0">In our courses and coaching programs.</p>
@@ -46,11 +41,7 @@ const Features = () => {
                   className="btn-square bg-light rounded-circle mb-4"
                   style={{ width: "64px", height: "64px" }}
                 >
-                  <img
-                    className="img-fluid"
-                    src="img/icon/icon-2.png"
-                    alt="Icon"
-                  />
+                  <img className="img-fluid" src={collaboration} alt="Icon" />
                 </div>
                 <h5 className="mb-3">Multiple Blog Coaches</h5>
                 <p className="mb-0">
@@ -64,11 +55,7 @@ const Features = () => {
                   className="btn-square bg-light rounded-circle mb-4"
                   style={{ width: "64px", height: "64px" }}
                 >
-                  <img
-                    className="img-fluid"
-                    src="img/icon/icon-3.png"
-                    alt="Icon"
-                  />
+                  <img className="img-fluid" src={dollar} alt="Icon" />
                 </div>
                 <h5 className="mb-4">Accountability</h5>
                 <p className="mb-0">

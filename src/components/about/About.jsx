@@ -1,6 +1,7 @@
 import "./about.css";
+import one from "../../videos/lab.mp4";
 
-const Model = () => {
+const About = () => {
   return (
     <>
       <div
@@ -24,7 +25,6 @@ const Model = () => {
               />
             </div>
             <div className="modal-body">
-              {/* 16:9 aspect ratio */}
               <div className="ratio ratio-16x9">
                 <iframe
                   className="embed-responsive-item"
@@ -47,15 +47,14 @@ const Model = () => {
                 className="h-100 d-flex align-items-center justify-content-center"
                 style={{ minHeight: "300px" }}
               >
-                <button
-                  type="button"
-                  className="btn-play"
-                  data-bs-toggle="modal"
-                  data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
-                  data-bs-target="#videoModal"
-                >
-                  <span />
-                </button>
+                <video
+                  className="video1"
+                  src={one}
+                  alt="testimonial_video"
+                  controls
+                />
+                <span />
+
                 <h3 className="brand">Isiak Olaniyan</h3>
               </div>
             </div>
@@ -101,4 +100,4 @@ const Model = () => {
     </>
   );
 };
-export default Model;
+export default About;

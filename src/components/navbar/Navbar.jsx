@@ -10,7 +10,7 @@ const Navbar = () => {
           <nav className="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
             <a href="index.html" className="anchor navbar-brand d-lg-none">
               <img className="logo" src={logo} alt="logo" />
-              <h1 className="name fw-bold m-2">Isiak Olaniyan</h1>
+              {/* <h1 className="name fw-bold m-2">Isiak Olaniyan</h1> */}
             </a>
 
             <button

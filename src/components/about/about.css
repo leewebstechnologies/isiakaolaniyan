@@ -1,7 +1,7 @@
 .about {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(../../../public/img/about.jpg) left center no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .btn-play {
@@ -108,4 +108,9 @@
 
 span:hover {
   background-color: #36161a;
+}
+
+.video1 {
+  margin: 20px;
+  width: 100%;
 }

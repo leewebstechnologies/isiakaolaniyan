@@ -5,3 +5,11 @@
 .feature-item {
   border-color: rgba(0, 0, 0, 0.03) !important;
 }
+
+.growth {
+  color: #722f37;
+}
+
+.img-fluid {
+  width: 40px;
+}

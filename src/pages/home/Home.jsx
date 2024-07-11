@@ -1,5 +1,6 @@
-import Model from "../../components/about/About";
+// import About from "../../components/about/About";
 import Features from "../../components/features/Features";
+import Hero from "../../components/hero/Hero";
 import Services from "../../components/services/Services";
 import Sumup from "../../components/sumup/Sumup";
 import Testimonial from "../../components/testimonial/Testimonial";
@@ -9,8 +10,7 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <Model />
-      <Features />
+      <Hero />
       <Features />
       <Services />
       <Texture />

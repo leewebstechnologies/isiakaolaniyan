@@ -1,0 +1,56 @@
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero_texture {
+  width: 100%;
+  /* height: 30rem; */
+}
+.heading {
+  margin: -33rem 20rem 0 20rem;
+}
+.paragraph {
+  margin: 0 20rem 0 20rem;
+}
+
+.hero .contents .video1 {
+  border: 10px solid #722f37;
+  width: 50%;
+  /* height: 30px; */
+}
+
+.contents h3 {
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-top: -10px;
+}
+
+.masterclass_btn {
+  border: none;
+  background-color: #722f37;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 0 auto;
+  padding: 10px;
+}
+.masterclass_btn:hover {
+  background-color: #f0dbdd;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .hero_texture {
+    height: 40rem;
+  }
+  .contents h1 {
+    margin: -28rem 0 1rem 0;
+  }
+
+  .paragraph {
+    margin: 0 50px 0 50px;
+  }
+}

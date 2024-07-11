@@ -9,7 +9,7 @@ const Topbar = () => {
           <div className="d-flex align-items-center">
             <a className="anchor" href="index.html">
               <img className="logo" src={logo} alt="logo" />
-              <h2 className="brandname text-white fw-bold">Isiak Olaniyan</h2>
+              {/* <h2 className="brandname text-white fw-bold">Isiak Olaniyan</h2> */}
             </a>
             <div className="ms-auto d-flex align-items-center">
               <small className="ms-4">
