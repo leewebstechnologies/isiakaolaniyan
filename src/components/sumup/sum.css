@@ -1,4 +1,102 @@
 .sumup {
   background: #f0dbdd;
-  height: 50rem;
+  height: 80rem;
+  margin-top: 20px;
+}
+
+.sumup h5 {
+  padding: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sumup h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sumup p {
+  padding: 0 200px 0 200px;
+}
+
+.sumup_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-right: 20px;
+  /* margin: auto; */
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card p {
+  padding: 0 20px 0 20px;
+  text-align: justify;
+}
+
+.card h6 {
+  margin-top: 10px;
+}
+
+.laptop {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0 100px;
+}
+
+.growth {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0 100px;
+}
+
+.equity {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0 100px;
+}
+
+.final {
+  margin: 20px auto 0px 150px;
+}
+
+h3 {
+  margin-top: 30px;
+
+}
+
+.masterclass_btn {
+  border: none;
+  background-color: #722f37;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 0 auto;
+  padding: 10px;
+}
+.masterclass_btn:hover {
+  background-color: #f0dbdd;
+  color: #000;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }

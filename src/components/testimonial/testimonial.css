@@ -68,13 +68,17 @@
 .wrapper {
   background: #f0dbdd;
   margin: 70px 0 0 250px;
-  padding: 10px;
+  padding: 20px;
+  padding-bottom: 80px;
   width: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper p {
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: -20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,6 +89,7 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -92,6 +97,7 @@ h6 {
   /* margin: auto; */
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .card p {
@@ -113,14 +119,13 @@ h6 {
 }
 
 .masterclass_btn {
-  /* border: 1px solid #722f37; */
   border: none;
   background-color: #722f37;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px auto 0 auto;
+  margin: 0px auto 0 auto;
   padding: 10px;
 }
 .masterclass_btn:hover {
