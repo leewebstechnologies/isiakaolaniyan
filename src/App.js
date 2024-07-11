@@ -1,25 +1,31 @@
-import Features from "./components/features/Features";
-import Model from "./components/about/About";
-// import Carousel from "./components/carousel/Carousel";
 import Navbar from "./components/navbar/Navbar";
 import Topbar from "./components/topbar/Topbar";
-import logo from "./images/logo.png";
-import Services from "./components/services/Services";
-import Texture from "./components/texture/Texture";
-import Testimonial from "./components/testimonial/Testimonial";
-import Sumup from "./components/sumup/Sumup";
 import Footer from "./components/footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Blog from "./pages/blog/Blog";
+import Youtube from "./pages/youtube/Youtube";
+import Ai from "./pages/ai/Ai";
+import Income from "./pages/income/Income";
+import Story from "./pages/story/Story";
+import Contact from "./pages/contact/Contact";
 function App() {
   return (
     <>
       <Topbar />
-      <Navbar />
-      <Model />
-      <Features />
-      <Services />
-      <Texture />
-      <Testimonial />
-      <Sumup />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar />}>
+            <Route index element={<Home />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="youtube" element={<Youtube />} />
+            <Route path="ai" element={<Ai />} />
+            <Route path="income" element={<Income />} />
+            <Route path="story" element={<Story />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </>
   );

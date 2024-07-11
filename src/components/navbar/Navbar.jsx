@@ -1,3 +1,4 @@
+import { Link, Outlet } from "react-router-dom";
 import "./navbar.css";
 import logo from "../../images/logo.png";
 
@@ -22,15 +23,15 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <div className="navbar-nav">
-                <a href="index.html" className="nav-item nav-link active">
+                <Link to="/" className="a nav-item nav-link active">
                   HOME
-                </a>
-                <a href="index.html" className="nav-item nav-link active">
+                </Link>
+                <Link to="/blog" className="nav-item nav-link active">
                   START A BLOG
-                </a>
-                <a href="about.html" className="nav-item nav-link">
+                </Link>
+                <Link to="/youtube" className="nav-item nav-link">
                   START A YOUTUBE CHANNEL
-                </a>
+                </Link>
 
                 <div className="nav-item dropdown">
                   <a
@@ -41,30 +42,26 @@ const Navbar = () => {
                     PRODUCTS
                   </a>
                   <div className="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                    <a href="feature.html" className="dropdown-item">
+                    <Link to="/ai" className="dropdown-item">
                       AI Income Blueprint (New)
-                    </a>
-                    <a href="team.html" className="dropdown-item">
+                    </Link>
+                    <Link to="/income" className="dropdown-item">
                       Income University
-                    </a>
+                    </Link>
                   </div>
                 </div>
-                <a href="contact.html" className="nav-item nav-link">
+                <Link to="/story" className="nav-item nav-link">
                   MY STORY
-                </a>
-                <a href="contact.html" className="nav-item nav-link">
+                </Link>
+                <Link to="/contact" className="nav-item nav-link">
                   CONTACT
-                </a>
+                </Link>
               </div>
-              {/* <div className="ms-auto d-none d-lg-block">
-                <a href className="btn btn-primary py-2 px-4">
-                  FREE MASTERCLASS
-                 </a>
-              </div> */}
             </div>
           </nav>
         </div>
       </div>
+      <Outlet />
     </>
   );
 };
