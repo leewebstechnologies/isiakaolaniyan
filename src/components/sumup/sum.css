@@ -75,7 +75,6 @@
 
 h3 {
   margin-top: 30px;
-
 }
 
 .masterclass_btn {
@@ -99,4 +98,44 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .sumup {
+    display: flex;
+    flex-direction: column;
+    height: 180rem;
+  }
+  .sumup h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+  }
+
+  .sumup h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .sumup p {
+    padding: 0 20px 0 20px;
+    text-align: justify;
+  }
+
+  .sumup_cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .final {
+    text-align: justify;
+    margin-left: -5px;
+  }
+
+  .signup h3, h5 {
+    margin-left: 30px;
+  }
 }

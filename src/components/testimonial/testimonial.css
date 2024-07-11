@@ -148,4 +148,24 @@ h6 {
     height: 45px;
     font-size: 20px;
   }
+
+  .wrapper {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -2px;
+  }
+
+  .wrapper p {
+    text-align: justify;
+  }
+
+  .testimonial_cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
 }
