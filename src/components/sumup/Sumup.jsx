@@ -1,7 +1,7 @@
 import "./sum.css";
 import one from "../../images/laptop.png";
-import two from "../../images/economic.png";
-import three from "../../images/equity.png";
+import two from "../../images/speculation.png";
+import three from "../../images/monetize.png";
 
 const Sumup = () => {
   return (
@@ -49,7 +49,7 @@ const Sumup = () => {
         <div className="sumup_cards">
           <div className="card">
             <img className="laptop" src={one} alt="laptop" />
-            <h6>Step 1: Launch Your Blog</h6>
+            <h6 style={{ color: "#000" }}>Step 1: Launch Your Blog</h6>
             <p>
               I’ve launched hundreds of websites and will help you discover your
               unique niche and value proposition, expertly plan your content
@@ -59,7 +59,7 @@ const Sumup = () => {
           </div>
           <div className="card">
             <img className="growth" src={two} alt="growth" />
-            <h6>Step 2: Scale Your Growth</h6>
+            <h6 style={{ color: "#000" }}>Step 2: Scale Your Growth</h6>
             <p>
               I’ve launched hundreds of websites and will help you discover your
               unique niche and value proposition, expertly plan your content
@@ -69,7 +69,7 @@ const Sumup = () => {
           </div>
           <div className="card">
             <img className="equity" src={three} alt="equity" />
-            <h6>Step 3: Monetize Faster</h6>
+            <h6 style={{ color: "#000" }}>Step 3: Monetize Faster</h6>
             <p>
               I’ve launched hundreds of websites and will help you discover your
               unique niche and value proposition, expertly plan your content

@@ -1,4 +1,10 @@
 import "./services.css";
+import one from "../../images/artificial-intelligence.png";
+import two from "../../images/global-marketing.png";
+import three from "../../images/blogging.png";
+import four from "../../images/search.png";
+import five from "../../images/b2b-marketing.png";
+import six from "../../images/blogging.png";
 
 const Services = () => {
   return (
@@ -25,11 +31,7 @@ const Services = () => {
                     className="btn-square bg-light rounded-circle mx-auto mb-4"
                     style={{ width: "64px", height: "64px" }}
                   >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-5.png"
-                      alt="Icon"
-                    />
+                    <img className="img-fluid" src={one} alt="Icon" />
                   </div>
                   <h5 className="mb-3">Scale Content with AI</h5>
                   <p className="mb-0">
@@ -56,11 +58,7 @@ const Services = () => {
                     className="btn-square bg-light rounded-circle mx-auto mb-4"
                     style={{ width: "64px", height: "64px" }}
                   >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-6.png"
-                      alt="Icon"
-                    />
+                    <img className="img-fluid" src={two} alt="Icon" />
                   </div>
                   <h5 className="mb-3">Affiliate Marketing</h5>
                   <p className="mb-0">
@@ -69,12 +67,6 @@ const Services = () => {
                     dollar online with affiliate marketing.
                   </p>
                 </div>
-                {/* <div className="service-btn rounded-0 rounded-bottom">
-                  <a className="text-primary fw-medium" href>
-                    Read More
-                    <i className="bi bi-chevron-double-right ms-2" />
-                  </a>
-                </div> */}
               </div>
             </div>
             <div
@@ -87,11 +79,7 @@ const Services = () => {
                     className="btn-square bg-light rounded-circle mx-auto mb-4"
                     style={{ width: "64px", height: "64px" }}
                   >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-7.png"
-                      alt="Icon"
-                    />
+                    <img className="img-fluid" src={three} alt="Icon" />
                   </div>
                   <h5 className="mb-3">Which Posts to Write</h5>
                   <p className="mb-0">
@@ -118,11 +106,7 @@ const Services = () => {
                     className="btn-square bg-light rounded-circle mx-auto mb-4"
                     style={{ width: "64px", height: "64px" }}
                   >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-8.png"
-                      alt="Icon"
-                    />
+                    <img className="img-fluid" src={four} alt="Icon" />
                   </div>
                   <h5 className="mb-3">Keyword Research</h5>
                   <p className="mb-0">
@@ -149,11 +133,7 @@ const Services = () => {
                     className="btn-square bg-light rounded-circle mx-auto mb-4"
                     style={{ width: "64px", height: "64px" }}
                   >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-9.png"
-                      alt="Icon"
-                    />
+                    <img className="img-fluid" src={five} alt="Icon" />
                   </div>
                   <h5 className="mb-3">B2B Marketing</h5>
                   <p className="mb-0">
@@ -180,11 +160,7 @@ const Services = () => {
                     className="btn-square bg-light rounded-circle mx-auto mb-4"
                     style={{ width: "64px", height: "64px" }}
                   >
-                    <img
-                      className="img-fluid"
-                      src="img/icon/icon-10.png"
-                      alt="Icon"
-                    />
+                    <img className="img-fluid" src={six} alt="Icon" />
                   </div>
                   <h5 className="mb-3">E-mail Marketing</h5>
                   <p className="mb-0">
