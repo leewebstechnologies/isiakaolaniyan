@@ -1,0 +1,45 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+.blogger {
+  width: 100%;
+}
+
+.blog h2 {
+  color: #000;
+  position: absolute;
+  top: 180px;
+  margin-left: 100px;
+  margin-right: 500px;
+}
+
+.blog p {
+  color: #000;
+  color: #000;
+  position: absolute;
+  top: 230px;
+  margin-left: 100px;
+  margin-right: 600px;
+  text-align: justify;
+}
+
+.blog .masterclass_btn {
+  border: none;
+  background-color: #722f37;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+ 
+
+  padding: 10px;
+
+}
+.masterclass_btn:hover {
+  background-color: #f0dbdd;
+  color: #000;
+}
