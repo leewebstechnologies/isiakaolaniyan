@@ -1,6 +1,8 @@
 import "./footer.css";
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <>
       <div
@@ -112,10 +114,11 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              <a className="fw-medium text-light" href="#">
-                © Isiak Olaniyan
-              </a>
-              , All Right Reserved.
+              <p className="a fw-medium text-light">
+                © Copyright {year} | All Rights Reserved By Isiak Olaniyan
+              </p>
+              {/* <a className="fw-medium text-light">© Isiak Olaniyan</a>, All
+              Right Reserved. */}
             </div>
             <div className="col-md-6 text-center text-md-end">
               Designed By Isiak Olaniyan
