@@ -41,7 +41,7 @@
 
 @media (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
-    display: block;
+    /* display: block; */
     border: none;
     margin-top: 0;
     top: 150%;

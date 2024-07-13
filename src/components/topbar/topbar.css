@@ -1,23 +1,34 @@
 .logo {
-    width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin-top: -10px; */
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: -10px; */
 }
 
 .anchor {
-    display: flex;
+  display: flex;
 }
-
 
 .brandname {
-margin-top: 5px;
+  margin-top: 5px;
 }
 .topbar {
-    background-color: #722f37;
+  /* background-color: #722f37; */
+  background-color: #f0dbdd;
 }
 
 .ms-3 {
-    color: #722f37;
+  color: #722f37;
+}
+
+.ms-auto {
+  color: #722f37;
+}
+
+@media screen and (max-width: 768px) {
+  .ms-auto {
+    display: flex;
+    flex-direction: column;
+  }
 }

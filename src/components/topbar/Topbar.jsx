@@ -4,7 +4,7 @@ import logo from "../../images/logo.png";
 const Topbar = () => {
   return (
     <>
-      <div className="topbar container-fluid text-white d-none d-lg-flex">
+      <div className="topbar container-fluid text-white d d-lg-flex">
         <div className="container  py-1">
           <div className="d-flex align-items-center">
             <a className="anchor" href="index.html">
@@ -12,13 +12,13 @@ const Topbar = () => {
               {/* <h2 className="brandname text-white fw-bold">Isiak Olaniyan</h2> */}
             </a>
             <div className="ms-auto d-flex align-items-center">
-              <small className="ms-4">
+              {/* <small className="ms-4">
                 <i className="fa fa-map-marker-alt me-3" />
                 123 Street, New York, USA
-              </small>
+              </small> */}
               <small className="ms-4">
                 <i className="fa fa-envelope me-3" />
-                info@example.com
+                isiakolaniyan@gmail.com
               </small>
               <small className="ms-4">
                 <i className="fa fa-phone-alt me-3" />
