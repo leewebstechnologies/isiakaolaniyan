@@ -1,5 +1,5 @@
 .logo {
-  width: 50px;
+  width: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,5 +30,8 @@
   .ms-auto {
     display: flex;
     flex-direction: column;
+  }
+  .logo {
+    visibility: none;
   }
 }

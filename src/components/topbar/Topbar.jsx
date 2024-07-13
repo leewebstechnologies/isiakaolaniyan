@@ -4,7 +4,7 @@ import logo from "../../images/logo.png";
 const Topbar = () => {
   return (
     <>
-      <div className="topbar container-fluid text-white d d-lg-flex">
+      <div className="topbar container-fluid text-white d-none d-lg-flex">
         <div className="container  py-1">
           <div className="d-flex align-items-center">
             <a className="anchor" href="index.html">
