@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/leewebstechnologies/isiakolaniyan/static/css/main.da1b63e0.css",
-    "main.js": "/leewebstechnologies/isiakolaniyan/static/js/main.c4236be6.js",
-    "static/media/lab.mp4": "/leewebstechnologies/isiakolaniyan/static/media/lab.eed1d878e6f0fcc2275f.mp4",
-    "static/media/personnel.mp4": "/leewebstechnologies/isiakolaniyan/static/media/personnel.1d5a36d1f9f3480f0619.mp4",
-    "static/media/bloggers.jpg": "/leewebstechnologies/isiakolaniyan/static/media/bloggers.b701ffed847812804e3a.jpg",
-    "static/media/background.jpg": "/leewebstechnologies/isiakolaniyan/static/media/background.55f332ddf3f7c4995c7b.jpg",
-    "static/media/speculation.png": "/leewebstechnologies/isiakolaniyan/static/media/speculation.bc30285c9cf6fb0deb9d.png",
-    "static/media/texture.jpg": "/leewebstechnologies/isiakolaniyan/static/media/texture.a13a52eea53229b07c8d.jpg",
-    "static/media/logo.png": "/leewebstechnologies/isiakolaniyan/static/media/logo.e248ee262331d976133d.png",
-    "static/media/global-marketing.png": "/leewebstechnologies/isiakolaniyan/static/media/global-marketing.9ecdc44ac7637807caca.png",
-    "static/media/artificial-intelligence.png": "/leewebstechnologies/isiakolaniyan/static/media/artificial-intelligence.e6a7a4f8f2264ca35535.png",
-    "static/media/search.png": "/leewebstechnologies/isiakolaniyan/static/media/search.2f408a3f247b71eab8b5.png",
-    "static/media/laptop.png": "/leewebstechnologies/isiakolaniyan/static/media/laptop.d4c5fef74405c6915c2e.png",
-    "static/media/blogging.png": "/leewebstechnologies/isiakolaniyan/static/media/blogging.00e4ff13e490dda47641.png",
-    "static/media/monetize.png": "/leewebstechnologies/isiakolaniyan/static/media/monetize.a1035fa2c1aa168cb462.png",
-    "static/media/b2b-marketing.png": "/leewebstechnologies/isiakolaniyan/static/media/b2b-marketing.e5af3b51db03ecf2aac7.png",
-    "index.html": "/leewebstechnologies/isiakolaniyan/index.html",
-    "main.da1b63e0.css.map": "/leewebstechnologies/isiakolaniyan/static/css/main.da1b63e0.css.map",
-    "main.c4236be6.js.map": "/leewebstechnologies/isiakolaniyan/static/js/main.c4236be6.js.map"
+    "main.css": "/github.io/isiakolaniyan/static/css/main.da1b63e0.css",
+    "main.js": "/github.io/isiakolaniyan/static/js/main.57f0e6dd.js",
+    "static/media/lab.mp4": "/github.io/isiakolaniyan/static/media/lab.eed1d878e6f0fcc2275f.mp4",
+    "static/media/personnel.mp4": "/github.io/isiakolaniyan/static/media/personnel.1d5a36d1f9f3480f0619.mp4",
+    "static/media/bloggers.jpg": "/github.io/isiakolaniyan/static/media/bloggers.b701ffed847812804e3a.jpg",
+    "static/media/background.jpg": "/github.io/isiakolaniyan/static/media/background.55f332ddf3f7c4995c7b.jpg",
+    "static/media/speculation.png": "/github.io/isiakolaniyan/static/media/speculation.bc30285c9cf6fb0deb9d.png",
+    "static/media/texture.jpg": "/github.io/isiakolaniyan/static/media/texture.a13a52eea53229b07c8d.jpg",
+    "static/media/logo.png": "/github.io/isiakolaniyan/static/media/logo.e248ee262331d976133d.png",
+    "static/media/global-marketing.png": "/github.io/isiakolaniyan/static/media/global-marketing.9ecdc44ac7637807caca.png",
+    "static/media/artificial-intelligence.png": "/github.io/isiakolaniyan/static/media/artificial-intelligence.e6a7a4f8f2264ca35535.png",
+    "static/media/search.png": "/github.io/isiakolaniyan/static/media/search.2f408a3f247b71eab8b5.png",
+    "static/media/laptop.png": "/github.io/isiakolaniyan/static/media/laptop.d4c5fef74405c6915c2e.png",
+    "static/media/blogging.png": "/github.io/isiakolaniyan/static/media/blogging.00e4ff13e490dda47641.png",
+    "static/media/monetize.png": "/github.io/isiakolaniyan/static/media/monetize.a1035fa2c1aa168cb462.png",
+    "static/media/b2b-marketing.png": "/github.io/isiakolaniyan/static/media/b2b-marketing.e5af3b51db03ecf2aac7.png",
+    "index.html": "/github.io/isiakolaniyan/index.html",
+    "main.da1b63e0.css.map": "/github.io/isiakolaniyan/static/css/main.da1b63e0.css.map",
+    "main.57f0e6dd.js.map": "/github.io/isiakolaniyan/static/js/main.57f0e6dd.js.map"
   },
   "entrypoints": [
     "static/css/main.da1b63e0.css",
-    "static/js/main.c4236be6.js"
+    "static/js/main.57f0e6dd.js"
   ]
 }
